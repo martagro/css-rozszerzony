@@ -11,3 +11,13 @@ div[detaliczny^="moze"] {
 }
 
 /* można też wywołać po klasie zamiast po selektorze np zamiast div zrobić .klient, po klasie jest dokładniej */
+
+.pass {
+    height: 25px;
+}
+
+.pass[typ="tajne"] {
+    height: 40px;
+}
+
+/*Wykropkowane hasło można odczytać klikają w przeglądarce zbadaj i zmieniając typ pola input z password na text*/
