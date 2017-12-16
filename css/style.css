@@ -1,0 +1,13 @@
+div[typ=vip] {
+    color: red;
+}
+
+div[detaliczny="tak"] {
+    color: green;
+}
+
+div[detaliczny^="moze"] {
+    color: yellow;
+}
+
+/* można też wywołać po klasie zamiast po selektorze np zamiast div zrobić .klient, po klasie jest dokładniej */
